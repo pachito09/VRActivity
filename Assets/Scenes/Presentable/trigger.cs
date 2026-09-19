@@ -40,10 +40,6 @@ public class trigger : MonoBehaviour
         {
             uiText.text = texto;
         }
-        else
-        {
-            Debug.Log("Puntos: " + texto);
-        }
     }
 }
             
