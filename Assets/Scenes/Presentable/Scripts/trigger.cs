@@ -23,7 +23,10 @@ public class trigger : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        SumarPuntos();
+        if (other.CompareTag("Pelota"))
+        {
+            SumarPuntos();
+        }
     }
 
     void SumarPuntos()
